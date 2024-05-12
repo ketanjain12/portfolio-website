@@ -4,12 +4,13 @@
                 padding: 0;
             }
             
-            .jain {
-                height: 15px;
+            .Resume {
+                height: 12px;
                 width: 10px;
                 cursor: pointer;
                 background-color: #356190c6;
                 border-radius: 50px;
+        
             }
             
             .sm {
