@@ -1,25 +1,5 @@
-            .ke {
-                background-color: green;
-                width: auto;
-                padding: 5px;
-                margin: 5px;
-            }
-            
-            .s {
-                margin: 8px;
-                color: aqua;
-            }
-            
-            .jain {
-                text-align: center;
-            }
-            
-            .info {
-                text-align: center;
-                background-color: blue;
-            }
-            
-            * {
+
+            *{
                 margin: 0;
                 padding: 0;
             }
@@ -27,12 +7,9 @@
             .jain {
                 height: 15px;
                 width: 10px;
+                cursor: pointer;
                 background-color: #356190c6;
                 border-radius: 50px;
-                text-align: center;
-                margin: 12px;
-                line-height: 10px;
-                /* box-shadow: 1px 4px 2px 2px #dcdde1; */
             }
             
             .sm {
@@ -43,12 +20,13 @@
             }
             
             body {
-                overflow-x: hidden;
+                width: 100%;
+                margin: 0;
+                padding: 0;
                 background-color: rgba(22, 152, 102, 0.7);
             }
             
             .bharat {
-                height: 720px;
                 gap: 2px;
             }
             
@@ -59,28 +37,13 @@
             .pt-10 {
                 margin-bottom: 33px;
             }
-            
-            @media only screen and (max-width:600px) {
+           
+            @media only screen and (max-width: 600px) {
                  :host,
-                 :root {
-                    width: fit-content !important;
-                }
-                .pt-10 {
-                    margin-bottom: 33px;
-                }
-                .text-white {
-                    --tw-text-opacity: 1;
-                    color: rgb(255 255 255 / var(--tw-text-opacity));
-                    display: -webkit-box !important;
-                    margin-left: 19px;
-                }
-            }
-            /* @media only screen and (max-width: 600px) {
-                 :host,
-                 :root {
+                 :body{
                     width: fit-content;
                 }
                 .pt-10 {
                     margin-bottom: 33px;
                 }
-            } */
+            }
