@@ -1,176 +1,201 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://cdn.tailwindcss.com"> </script>
-<link rel="stylesheet" href="index.css">
-    </head>
 
-    <body >
-        <div>
-       <div class="" >
-       <ul class=" flex text-white py-3  cursor-pointer relative space-x-10 bg-green-500 ">
-        <li  >
-            <a class="py-2 px-3 hover:text-yellow-400 w-[100%]  jain" href="Home" >Home</a>
-        </li>
-        <li >
-            <a class="py-2 px-3 hover:text-blue-300 w-100%  jain" href="#About" >About Me </a>
-        </li>
-        <li >
-            <a class="py-2 px-3 hover:text-blue-400 w-100% jain" href=" #My Services" > My Services </a>
-        </li>
-        <li >
-            <a class="py-2 px-3 hover:text-blue-400 w-100% jain" href="#Contact Us" >Contact us </a>
-        </li>
-        <li >
-            <a class="py-2 px-3 hover:text-yellow-500 w-100% jain" href="#Follow Me" >Follow Me</a>
-        </li>
-        <li >
-            <a class="py-2 px-3 hover:text-yellow-600 w-100% jain" href="Explore Me" >Explore Me</a>
-        </li>
-        <li >
-            <button type="button"><a class="py-2 px-3 jain" href="./Ketan Jain Resume(New).pdf" >Download CV </a></button>
-        </li>
-    </ul>
-       </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"> </script>
+    <link rel="stylesheet" href="index.css">
+</head>
 
-       <marquee behaviour=alternate w-100% class="text-4xl my-5">Ketan Jain Portfolio Website</marquee>
-       
-      
-           <div class="flex justify-center items-center mb-2 h-72">
-        <div class="m-10 "> 
+<body>
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-white text-xl font-bold">Ketan Jain</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#"
+                            class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#About Me"
+                            class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Me</a>
+                        <a href="#My Skills"
+                            class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">My
+                            Skills</a>
+                        <a href="#Contact Us"
+                            class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact
+                            us</a>
+                        <a href="#Follow Me"
+                            class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Follow
+                            Me</a>
+                        <button type="button"><a class="py-2 px-3 jain" href="./Ketan Jain Resume(New).pdf">Download CV
+                            </a></button>
+                    </div>
+                </div>
+                <!-- Hamburger Menu for mobile -->
+                <div class="-mr-2 flex md:hidden">
+                    <button type="button"
+                        class="text-gray-400 hover:text-white  items-center justify-center p-2 rounded-md focus:outline-none">
+
+                        <i class="fa-solid fa-bars"></i>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1  sm:px-3">
+                <a href="#"
+                    class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="#About Me"
+                    class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About Me</a>
+                <a href="#My Skills"
+                    class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">My
+                    Skills</a>
+                <a href="#Contact Us"
+                    class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact
+                    us</a>
+                <a href="#Follow Me"
+                    class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Follow
+                    Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <marquee behaviour=alternate w-100% class="text-4xl my-2">Ketan Jain Portfolio Website</marquee>
+
+    <div class="flex flex-wrap justify-center ">
+        <div class="m-10 ">
             <h4 class="text-2xl mb-1">Ketan Jain</h4>
             <p class="text-6xl mb-2">I AM FRONTEND DEVELOPER</p>
-            <p class="text-2xl mt-1">Cureently I am working in Digiprima As Intern   </p>
-             </div>
-             <div><img class="pb-2 h-64 w-72 rounded-full" src="./ketan2.jpg" alt="my image"class="text-center " ></div>
-             <br>
+            <p class="text-2xl mt-1">Cureently I am working in Digiprima As Intern </p>
+        </div>
+        <div><img class="pb-2 h-64 w-72 rounded-full" src="./ketan2.jpg" alt="my image" class="text-center "></div>
+        <br>
+    </div>
+    <section class="p-20 bg-blue-300">
+        <div class="flex flex-wrap justify-center items-center ">
+            <div>
+                <img class="py-2 h-48  flex-1 rounded-half" src="./ketan3.jpg" alt="">
+            </div>
+            <div class="flex-1 ml-20">
+                <h1 class="text-3xl" id="About Me">About <span class="text-blue-200">Me</span></h1>
+                <br>
+                <h3 class=" text-2xl mb-2">Hello I am ketan jain</h3>
+                <p class="text-xl">
+                    I'm a software developer who loves turning ideas into code. With a knack for problem-solving, I
+                    enjoy building user-friendly and efficient applications. Whether it's fixing bugs or creating
+                    new features, I'm always up for the challenge. My goal? To make technology work smarter and
+                    simpler for everyone.</p>
+            </div>
+        </div>
+    </section>
+    </div>
+    </div>
+
+    </div>
+    <div class="bg-yellow-300 bharat">
+        <h1 class="text-3xl text-center mb-3" id="My Skills">My Skills</h1>
+        <p class="mb-4 text-center">We Provide High Standard Clean Website For Your IT Solutions</p>
+        <div class="grid grid-cols-3 gap-4 justify-center py-5">
+            <div class="flex flex-col items-center">
+                <img src="./frontend.jpeg" alt="" class="mb-4 h-40 w-72">
+                <h2 class="text-2xl">Frontend Design</h2>
+                <p class="ml-2">There are many variations of passages of but the majority have suffered alteration in
+                    some form.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="./web development.jpeg" alt="" class="mb-4 h-40 w-72">
+                <h2 class="text-2xl">Web Design</h2>
+                <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="./mobile development.jpeg" alt="" class="mb-4 h-40 w-72">
+                <h2 class="text-2xl">Mobile Design</h2>
+                <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="./js.jpeg" alt="" class="mb-4 h-40 w-72 ">
+                <h2 class="text-2xl">Graphic Design</h2>
+                <p class="ml-2">There are many variations of passages of but the majority have suffered alteration in
+                    some form.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="./website.jpeg" alt="" class="mb-4 h-40 w-72">
+                <h2 class="text-2xl">Website Design</h2>
+                <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="./react.jpeg" alt="" class="mb-4 h-40 w-72">
+                <h2 class="text-2xl">React Design</h2>
+                <p>There are many variations of passages of but the majority have suffered alteration in some form.</p>
+            </div>
         </div>
     </div>
 
-        <section class="p-24 bg-blue-300" >
-            <div class="flex justify-center items-center ">
-                <div >
-                    <img class="py-2  h-80 w-88 flex-1" src="./ketan3.jpg" alt="">
+    <section id="contact" class="py-16 bg-gray-300">
+        <div class="max-w-4xl  mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8" id="Contact Us">Contact Us</h2>
+            <form id="contactForm" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name <span
+                            class="text-red-500">*</span></label>
+                    <input type="text" name="name" id="name" required placeholder="Enter your name"
+                        class="mt-1 px-4 py-2 block w-full rounded-md bg-gray-50 border-gray-300 focus:ring-indigo-500 focus:border-indigo-500">
+                    <p class="text-red-500 text-xs italic hidden" id="nameError">Please enter your name.</p>
                 </div>
-                <div class="flex-1 ml-20">
-                   <h1 class="text-3xl" id="About">About <span class="text-blue-200">Me</span></h1> 
-                   <br>
-                   <h3 class=" text-2xl mb-2">Hello I am ketan jain</h3>
-                   <p class="text-xl">
-                    I'm a software developer who loves turning ideas into code. With a knack for problem-solving, I enjoy building user-friendly and efficient applications. Whether it's fixing bugs or creating new features, I'm always up for the challenge. My goal? To make technology work smarter and simpler for everyone.</p>
-                </div>
-            </div>
-        </section>
-    </div>
-    
-      </div>
-      
-        <div class="bg-yellow-300 bharat ">
-            <h1 class="text-3xl text-center mb-3 "id="My Services">My Services</h1>
-            <p class="mb-4 text-center">We Provide High Standard Clean Website For Your It Solutions</p>
-            <div class="grid grid-cols-3 grid-rows-3  gap-y-5 py-5 ">
-                <div class="pl-10">
-                    <img src="./frontend.jpeg" alt="" class="mb-4 h-40 w-72">
-                    <h2 class="pl-10 pb-2 text-2xl">frontend Design</h2>
-                    <p>There are many variations of passages of but the majority have suffered alteration in some
-                        form.
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email <span
+                            class="text-red-500">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="Enter your email"
+                        class="mt-1 px-4 py-2 block w-full rounded-md bg-gray-50 border-gray-300 focus:ring-indigo-500 focus:border-indigo-500">
+                    <p class="text-red-500 text-xs italic hidden" id="emailError">Please enter a valid email address.
                     </p>
                 </div>
-                <div class="pl-10">
-                    <img src="./web development.jpeg" alt=""  class="mb-4 h-40 w-72">
-                    <h2 class="pl-10 pb-2 text-2xl">Web development Design</h2>
-                    <p>There are many variations of passages of but the majority have suffered alteration in some
-                        form.
-                    </p>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block text-sm font-medium text-gray-700">If You want give me some
+                        message than you can type here your Message <span class="text-red-500">*</span></label>
+                    <textarea name="message" id="message" rows="4" required placeholder="Enter your message"
+                        class="mt-1 px-4 py-2 block w-full rounded-md bg-gray-50 border-gray-300 focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+                    <p class="text-red-500 text-xs italic hidden" id="messageError">Please enter your message.</p>
                 </div>
-                <div class="pl-10">
-                    <img src="./mobile development.jpeg" alt="" class="mb-4  h-40 w-72">
-                    <h2 class="pl-10 pb-2 text-2xl">Mobile development Design</h2>
-                    <p>There are many variations of passages of but the majority have suffered alteration in some
-                        form.
-                    </p>
+                <div class="sm:col-span-2">
+                    <button type="submit" id="submitButton"
+                        class="inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Submit</button>
                 </div>
-                <div class="pl-10 mt-4">
-                    <img src="./js.jpeg" alt="" class="mb-4  h-40 w-72" >
-                    <h2 class="pl-10 pb-2 text-2xl">Graphic Design</h2>
-                    <p>There are many variations of passages of but the majority have suffered alteration in some
-                        form.
-                    </p>
-                </div>
-                <div class="pl-10 mt-4">
-                    <img src="./website.jpeg" alt="" class="mb-4 h-40 w-72">
-                    <h2 class="pl-10 pb-2 text-2xl">Website Design</h2>
-                    <p>There are many variations of passages of but the majority have suffered alteration in some
-                        form.
-                    </p>
-                </div>
-                <div class="pl-10 mt-4">
-                    <img src="./react.jpeg" alt="" class="mb-4 h-40 w-72">
-                    <h2 class="pl-10 pb-2 text-2xl">React Design</h2>
-                    <p>There are many variations of passages of but the majority have suffered alteration in some
-                        form.
-                    </p>
-                </div>
-            </div>
+            </form>
         </div>
-      
-   
+    </section>
 
-<section id="contact" class="py-16 bg-gray-100">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-center text-gray-800 mb-8" id="Contact Us">Contact Us</h2>
-        <form id="contactForm" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div>
-                <label for="name" class="block text-sm font-medium text-gray-700">Name <span class="text-red-500">*</span></label>
-                <input type="text" name="name" id="name" required placeholder="Enter your name" class="mt-1 px-4 py-2 block w-full rounded-md bg-gray-50 border-gray-300 focus:ring-indigo-500 focus:border-indigo-500">
-                <p class="text-red-500 text-xs italic hidden" id="nameError">Please enter your name.</p>
-            </div>
-            <div>
-                <label for="email" class="block text-sm font-medium text-gray-700">Email <span class="text-red-500">*</span></label>
-                <input type="email" name="email" id="email" required placeholder="Enter your email" class="mt-1 px-4 py-2 block w-full rounded-md bg-gray-50 border-gray-300 focus:ring-indigo-500 focus:border-indigo-500">
-                <p class="text-red-500 text-xs italic hidden" id="emailError">Please enter a valid email address.</p>
-            </div>
-            <div class="sm:col-span-2">
-                <label for="message" class="block text-sm font-medium text-gray-700">If You want give me some message than you can type here your Message <span class="text-red-500">*</span></label>
-                <textarea name="message" id="message" rows="4" required placeholder="Enter your message" class="mt-1 px-4 py-2 block w-full rounded-md bg-gray-50 border-gray-300 focus:ring-indigo-500 focus:border-indigo-500"></textarea>
-                <p class="text-red-500 text-xs italic hidden" id="messageError">Please enter your message.</p>
-            </div>
-            <div class="sm:col-span-2">
-                <button type="submit" id="submitButton" class="inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Submit</button>
-            </div>
-        </form>
+    <footer class="justify-center items-center bg-purple-200 footer">
+        <h2 class=" text-center text-red-950 text-2xl ml-5 pt-5 " id="Follow Me">Follow Me</h2>
+        <div class="flex justify-center items-center">
+            <a href="#" class="social h-16 w-16 bg-white rounded-full flex justify-center items-center m-4 shadow-md">
+                <i class="fa-brands fa-facebook text-blue text-xl"></i>
+            </a>
+            <a href="#" class="social h-16 w-16 bg-white rounded-full flex justify-center items-center m-4 shadow-md">
+                <i class="fa-brands fa-instagram text-blue text-xl"></i>
+            </a>
+            <a href="#" class="social h-16 w-16 bg-white rounded-full flex justify-center items-center m-4 shadow-md">
+                <i class="fa-brands fa-twitter text-red text-xl"></i>
+            </a>
+            <a href="#" class="social h-16 w-16 bg-white rounded-full flex justify-center items-center m-4 shadow-md">
+                <i class="fa-brands fa-youtube text-red text-xl"></i>
+            </a>
+        </div>
+
+    </footer>
+    <div class=" text-center text-black  ">
+        <p class="pt-10">&copy; 2024 Portfolio Website. All Rights Reserved</p>
     </div>
-</section>
-
-
-            <footer class="justify-center items-center bg-purple-200 footer">
-                <h2 class=" text-center text-red-950 text-2xl ml-5 pt-5 "id="Follow Me">Follow Me</h2>
-                <div class="flex justify-center items-center">
-                <a href="#" class="social h-16 w-16 bg-white rounded-full flex justify-center items-center m-4 shadow-md">
-                    <i class="fa-brands fa-facebook text-blue text-xl"></i>
-                </a>
-                <a href="#" class="social h-16 w-16 bg-white rounded-full flex justify-center items-center m-4 shadow-md">
-                    <i class="fa-brands fa-instagram text-blue text-xl"></i>
-                </a>
-                <a href="#" class="social h-16 w-16 bg-white rounded-full flex justify-center items-center m-4 shadow-md">
-                    <i class="fa-brands fa-twitter text-red text-xl"></i>
-                </a>
-                <a href="#" class="social h-16 w-16 bg-white rounded-full flex justify-center items-center m-4 shadow-md">
-                    <i class="fa-brands fa-youtube text-red text-xl"></i>
-                </a>
-            </div>
-               
-            </footer>
-            <div class=" text-center text-black  ">
-                <p class="pt-10">&copy; 2024 Portfolio Website. All Rights Reserved</p>
-            </div>
-    </body>
+</body>
 </html>
-
-
